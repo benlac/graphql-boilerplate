@@ -1,0 +1,27 @@
+{
+  "name": "graphql-boilerplate",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "type": "module",
+  "scripts": {
+    "watch": "node --watch-path=./src src/index.js"
+  },
+  "dependencies": {
+    "@apollo/server": "^4.9.5",
+    "@apollo/utils.keyvadapter": "^3.1.0",
+    "@graphql-tools/executor-http": "^1.0.3",
+    "@graphql-tools/load-files": "^7.0.0",
+    "@graphql-tools/schema": "^10.0.0",
+    "@graphql-tools/stitch": "^9.0.3",
+    "@graphql-tools/wrap": "^10.0.1",
+    "@keyv/redis": "^2.8.0",
+    "apollo-datasource": "^3.3.2",
+    "dotenv": "^16.3.1",
+    "graphql": "^16.8.1",
+    "http": "^0.0.1-security",
+    "keyv": "^4.5.4",
+    "knex": "^3.0.1",
+    "pg": "^8.11.3"
+  }
+}
